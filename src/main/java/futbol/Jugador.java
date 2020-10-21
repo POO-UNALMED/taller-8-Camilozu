@@ -20,8 +20,8 @@ public class Jugador extends Futbolista  implements Comparable<Futbolista>  {
 	
 
 	@Override
-	public String jugarConLasManos() {
-		return "falso";
+	public boolean jugarConLasManos() {
+		return false;
 
 	}
 

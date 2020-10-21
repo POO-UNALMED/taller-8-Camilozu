@@ -12,8 +12,8 @@ public class Portero extends Futbolista implements Comparable<Portero> {
 	}
 
 	@Override
-	public String jugarConLasManos() {
-		return "verdadero";
+	public boolean jugarConLasManos() {
+		return true;
 	
 	}
 

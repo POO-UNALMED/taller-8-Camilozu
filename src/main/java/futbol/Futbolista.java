@@ -27,7 +27,7 @@ public abstract class Futbolista{
 		return x;
 	}
 	
-	public abstract String jugarConLasManos();
+	public abstract boolean jugarConLasManos();
 
 
 
@@ -53,6 +53,11 @@ public abstract class Futbolista{
 	}
 
 	public int compareTo(Futbolista t) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int compareTo(Object o) {
 		// TODO Auto-generated method stub
 		return 0;
 	}
