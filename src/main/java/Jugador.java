@@ -10,7 +10,7 @@ public class Jugador extends Futbolista  implements Comparable<Futbolista>  {
 		dorsal = 7;
 	}
 		
-	public Jugador(short golesMarcados, byte dorsal, String nombre, int edad, String posicion) {
+	public Jugador(String nombre, int edad, String posicion, short golesMarcados, byte dorsal) {
 		super(nombre, edad, posicion);
 		this.golesMarcados = golesMarcados;
 		this.dorsal = dorsal;
