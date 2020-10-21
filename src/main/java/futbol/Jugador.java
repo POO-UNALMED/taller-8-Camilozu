@@ -1,3 +1,4 @@
+package futbol;
 import java.math.*;
 public class Jugador extends Futbolista  implements Comparable<Futbolista>  {
 	

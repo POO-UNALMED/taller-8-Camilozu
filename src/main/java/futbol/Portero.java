@@ -1,3 +1,4 @@
+package futbol;
 
 public class Portero extends Futbolista implements Comparable<Portero> {
 	
